@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout = "@layout/toolbar"/>
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search popcorn"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/sale_lv_search"/>
+
+    <ListView
+        android:id="@+id/sale_inv_LV"
+        android:layout_width="match_parent"
+        android:layout_height="534dp"
+        android:layout_below="@+id/sale_lv_search"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="0dp"
+        android:clickable="true" />
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:background="@drawable/popbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/sale_inv_LV"
+        android:text="End Sale"
+        android:id="@+id/end_sale_btn"/>
+
+
+</RelativeLayout>

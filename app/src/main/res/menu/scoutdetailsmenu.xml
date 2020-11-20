@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/edit_scout"
+        android:title="Edit Scout"
+        app:showAsAction="never"/>
+    <item android:id="@+id/delete_scout"
+        android:title="Delete Scout"
+        app:showAsAction="never"/>
+    <item android:id="@+id/scout_detail_home"
+        android:title="Go Home"
+        app:showAsAction="never"/>
+
+
+</menu>

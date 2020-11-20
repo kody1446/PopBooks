@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoutDetail">
+    <include
+        android:id="@+id/toolbar"
+        layout = "@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/toolbar"
+        android:text="Scout name"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scout_detail_name"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scout_detail_name"
+        android:layout_marginTop="15dp"
+        android:entries="@array/scout_rank"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/scout_detail_rank"/>
+
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:background="@drawable/popbutton"
+        android:layout_marginTop="30dp"
+        android:text="Inventory"
+        android:layout_below="@+id/scout_detail_rank"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scout_detail_inv_btn"/>
+
+    <Button
+        android:id="@+id/scout_detail_sale_btn"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/scout_detail_inv_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/popbutton"
+        android:text="Start Sale" />
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:background="@drawable/popbutton"
+
+        android:text="Reports"
+        android:layout_below="@id/scout_detail_sale_btn"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scout_detail_report_btn"/>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PopBooks</string>
+    <string-array name="scout_rank">
+        <item>Lion</item>
+        <item>Bobcat</item>
+        <item>Tiger</item>
+        <item>Wolf</item>
+        <item>Bear</item>
+        <item>Webelo</item>
+        <item>Arrow of Light</item>
+    </string-array>
+    <string-array name="sale_type">
+        <item>Store Front</item>
+        <item>Wagon</item>
+        <item>Online</item>
+    </string-array>
+</resources>

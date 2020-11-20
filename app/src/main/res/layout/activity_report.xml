@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout = "@layout/toolbar"/>
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:background="@drawable/popbutton"
+        android:layout_marginTop="30dp"
+        android:text="Inventory total"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/inv_sum_btn"/>
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:background="@drawable/popbutton"
+        android:layout_marginTop="30dp"
+        android:text="Total Sales"
+        android:layout_below="@+id/inv_sum_btn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/total_sales_btn"/>
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:background="@drawable/popbutton"
+        android:layout_marginTop="30dp"
+        android:text="Location Summary"
+        android:layout_below="@+id/total_sales_btn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/location_summary_btn"/>
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:background="@drawable/popbutton"
+        android:layout_marginTop="30dp"
+        android:textSize="10dp"
+        android:text="Inventory / Sales Comparison"
+        android:layout_below="@+id/location_summary_btn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/invsales_btn"/>
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:background="@drawable/popbutton"
+        android:layout_marginTop="30dp"
+        android:textSize="10dp"
+        android:text="Recruit Report"
+        android:layout_below="@+id/invsales_btn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/recruit_report_btn"/>
+
+</RelativeLayout>

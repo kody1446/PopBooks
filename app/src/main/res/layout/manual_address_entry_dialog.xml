@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter an Address"
+        android:textAlignment="center"
+        android:id="@+id/address_entry_title"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_entry_title"
+        android:hint="street"
+        android:id="@+id/address_entry_street"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_entry_street"
+        android:hint="city"
+        android:id="@+id/address_entry_city"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_entry_city"
+        android:hint="state"
+        android:id="@+id/address_entry_state"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_entry_state"
+        android:hint="zip"
+        android:inputType="number"
+        android:id="@+id/address_entry_zip"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_entry_zip"
+        android:hint="Location Name"
+        android:id="@+id/address_entry_name"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_entry_name"
+        android:entries="@array/sale_type"
+        android:id="@+id/sale_type_spinner"/>
+
+
+</RelativeLayout>

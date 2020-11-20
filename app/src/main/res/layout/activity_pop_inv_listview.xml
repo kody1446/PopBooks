@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout = "@layout/toolbar"/>
+    <TextView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_text"
+        android:text="Click an item's image to see a detailed view and add bulk inventory."/>
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search popcorn"
+        android:layout_below="@+id/info_text"
+        android:id="@+id/pop_lv_search"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_below="@+id/pop_lv_search"
+        android:id="@+id/pop_inv_LV"/>
+
+</RelativeLayout>

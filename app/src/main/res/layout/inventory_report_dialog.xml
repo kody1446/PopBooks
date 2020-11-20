@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inventory Report"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/inv_report_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/inv_report_title"
+        android:id="@+id/inv_report_edtxt"/>
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:background="@drawable/popbutton"
+        android:layout_marginTop="30dp"
+        android:text="Share Report"
+        android:layout_below="@+id/inv_report_edtxt"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/share_report_btn"/>
+
+</RelativeLayout>

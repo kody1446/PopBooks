@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view_ss"
+        android:layout_width="53dp"
+        android:layout_height="61dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/scout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="40dp"
+        android:paddingTop="20dp"
+        android:text="Scout name"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:id="@+id/scout_id"
+        android:visibility="invisible"/>
+
+</LinearLayout>

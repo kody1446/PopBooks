@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="Add Scout"
+    android:id="@+id/add_scout"
+    app:showAsAction="never">
+</item>
+    <item android:title="About PopBooks"
+        android:id="@+id/about_popbooks"
+        app:showAsAction="never"/>
+    <item android:title="Add Test Data"
+        android:id="@+id/add_test_data_ss"
+        app:showAsAction="never"/>
+</menu>

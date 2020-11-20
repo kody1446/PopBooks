@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Add Recruit"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/addscout_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Recruit name"
+        android:textAlignment="center"
+        android:layout_below="@+id/addscout_title"
+        android:paddingTop="10dp"
+        android:id="@+id/add_recruit_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Recruit Phone"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:layout_below="@+id/add_recruit_name"
+        android:paddingTop="10dp"
+        android:id="@+id/add_recruit_phone"/>
+
+</RelativeLayout>

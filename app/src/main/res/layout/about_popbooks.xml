@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About PopBooks"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/about_popbooks_title"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_popbooks_title"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="15dp"
+        android:paddingRight="5dp"
+        android:text="Hello parents, PopBooks is an interactive popcorn inventory tracker that is built to help parents with their sales and tracking. The purpose of the app is to make daily life as a scout parent easier so you can enjoy the experience of scouting with your children. The creator of this app has been scouting with his son for several years and wanted to give to the community an easier way of fundraising."
+        android:textSize="15dp" />
+
+</RelativeLayout>

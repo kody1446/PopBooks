@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopInvDetail">
+
+    <include
+        android:id="@+id/toolbar"
+        layout = "@layout/toolbar"/>
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:id="@+id/pop_detail_img"
+    android:layout_marginTop="30dp"
+    android:outlineAmbientShadowColor="@color/gold"
+    android:src="@drawable/ic_cub_scouts"
+    android:layout_below="@+id/toolbar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pop_detail_name"
+        android:layout_below="@id/toolbar"
+        android:layout_toRightOf="@+id/pop_detail_img"
+        android:textStyle="bold"
+        android:text="Pop Name:"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pop_detail_desc"
+        android:text="Description:"
+        android:layout_below="@+id/pop_detail_name"
+        android:layout_toRightOf="@+id/pop_detail_img"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pop_detail_price"
+        android:text="Price:"
+        android:layout_below="@+id/pop_detail_desc"
+        android:layout_toRightOf="@+id/pop_detail_img"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pop_detail_qty"
+        android:text="Quantity in stock:"
+        android:layout_below="@+id/pop_detail_price"
+        android:layout_toRightOf="@+id/pop_detail_img"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:background="@drawable/popbutton"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/pop_detail_img"
+        android:layout_below="@+id/pop_detail_qty"
+        android:text="Add Case(12)"
+        android:id="@+id/add_case_btn"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Edit Product"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:id="@+id/edit_prod_title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edit_prod_title"
+        android:hint="name"
+        android:textAlignment="center"
+        android:id="@+id/edit_prod_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edit_prod_name"
+        android:textAlignment="center"
+        android:hint="description"
+        android:id="@+id/edit_prod_desc"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edit_prod_desc"
+        android:hint="$"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:id="@+id/edit_prod_price"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edit_prod_price"
+        android:hint="#"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:id="@+id/edit_prod_qty"/>
+
+
+</RelativeLayout>

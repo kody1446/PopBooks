@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/sale_img"
+        android:layout_width="53dp"
+        android:layout_height="61dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/sale_name_txt"
+        android:layout_width="109dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/sale_qty_txt"
+        android:layout_width="43dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="QTY" />
+    <TextView
+        android:id="@+id/sale_price_txt"
+        android:layout_width="43dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Price" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sale_id_txt"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sale_saleid_txt"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/make_sale_btn"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:text="$" />
+
+</LinearLayout>

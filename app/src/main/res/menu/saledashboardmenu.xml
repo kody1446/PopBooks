@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/add_recruit"
+        android:title="Add Recruit"
+        app:showAsAction="never"/>
+    <item android:id="@+id/end_sale"
+        android:title="End Sale"
+        app:showAsAction="never"/>
+    <item android:id="@+id/add_donation"
+        android:title="Add Donation"
+        app:showAsAction="never"/>
+    <item android:id="@+id/advertise_location"
+        android:title="Advertise Location"
+        app:showAsAction="never"/>
+
+</menu>
